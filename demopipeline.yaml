@@ -1,0 +1,15 @@
+langVersion: v1
+name: hello
+id: e4675a8e-455e-4ba8-824a-b913ad120445
+meta: {}
+ui:
+  name: hello
+description: test description
+tasks:
+  - tasks:
+      - name: echo
+        meta: {}
+        params:
+          sleep: "5"
+          string: Hello world
+        task: Utils/echo
